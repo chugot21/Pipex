@@ -6,7 +6,7 @@
 /*   By: clara <clara@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/23 15:11:11 by clara             #+#    #+#             */
-/*   Updated: 2023/07/23 19:36:11 by clara            ###   ########.fr       */
+/*   Updated: 2023/07/26 17:44:16 by clara            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,10 @@
 # include <stdio.h>
 # include <sys/types.h>
 # include <sys/wait.h>
+# include <stdlib.h>
+# include <fcntl.h>
+# include <sys/stat.h>
 
-//ft_strlen !
+int main(int argc, char **argv, char **env);
 
 #endif

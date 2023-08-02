@@ -13,10 +13,14 @@
 NAME =	pipex
 
 SRCS =	pipex.c \
+		ft_split.c \
+		ft_strnstr.c \
+		ft_strjoin.c \
+		pipex_free.c \
 
 CC = gcc
 
-FLAGS =	-g -Wall -Wextra -Werror
+FLAGS = -g -Wall -Wextra -Werror
 
 OBJS = $(SRCS:.c=.o)
 

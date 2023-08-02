@@ -20,6 +20,11 @@
 # include <fcntl.h>
 # include <sys/stat.h>
 
-int main(int argc, char **argv, char **env);
+int		main(int argc, char **argv, char **env);
+char	*ft_strnstr(const char *big, const char *little, size_t len);
+char	**ft_split(char const *s, char c);
+char	*ft_strjoin(char const *s1, char const *s2);
+void	free_tab(char **tab);
+void	error_msg(char *msg);
 
 #endif

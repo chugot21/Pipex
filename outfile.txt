@@ -1,1 +1,7 @@
-8
+14
+h = /home/chugot/bin/wc
+path = /usr/local/sbin/wc
+path = /usr/local/bin/wc
+path = /usr/sbin/wc
+path = /usr/bin/wc
+19
